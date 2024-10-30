@@ -1,0 +1,128 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0f7fa;
+  color: #333;
+}
+
+header {
+  background-color: #81d4fa;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav button {
+  background-color: #4fc3f7;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+nav button:hover {
+  background-color: #29b6f6;
+}
+
+main {
+  padding: 20px;
+}
+
+form label {
+  display: block;
+  margin: 5px 0;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 10px;
+  border: 1px solid #b3e5fc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #4fc3f7;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background-color: #29b6f6;
+}
+
+h2 {
+  border-bottom: 2px solid #4fc3f7;
+  padding-bottom: 5px;
+}
+/* App.css */
+
+/* Styling for the navbar */
+.navbar {
+  background-color: #333;
+  padding: 1em;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-links a:hover {
+  color: #ddd;
+}
+
+/* Styling for the main content area */
+.main-content {
+  padding: 2em;
+}
+.page-title {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  padding: 10px;
+}
+
+.navbar-links li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+.navbar-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-content {
+  padding: 20px;
+}
